@@ -1,0 +1,23 @@
+# Output and results directories
+output/
+results/
+
+# Python files
+infer.py
+*.pth
+*.cpython
+*.ipynb
+**/__pycache__/
+**/pytest_cache/
+
+# Environment directories
+3d_env/
+lidarsemseg/open3d-env/
+
+# Build and distribution files
+libs/pointops/build/
+libs/pointops/dist/
+libs/pointops/pointops.egg-info/
+
+# Data directory
+data/
