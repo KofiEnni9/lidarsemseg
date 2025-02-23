@@ -1,0 +1,1032 @@
+[2024-12-23 09:48:13,665 INFO train.py line 128 110060] => Loading config ...
+[2024-12-23 09:48:13,665 INFO train.py line 132 110060] => Building model ...
+[2024-12-23 09:48:13,866 INFO train.py line 226 110060] Num params: 46162662
+[2024-12-23 09:48:13,978 INFO train.py line 134 110060] => Building writer ...
+[2024-12-23 09:48:13,979 INFO train.py line 236 110060] Tensorboard writer logging dir: exp/default
+[2024-12-23 09:48:13,979 INFO train.py line 136 110060] => Building train dataset & dataloader ...
+[2024-12-23 09:48:13,993 INFO cavslid.py line 75 110060] Totally 102 x 1 samples in train set.
+[2024-12-23 09:48:13,993 INFO train.py line 138 110060] => Building val dataset & dataloader ...
+[2024-12-23 09:48:13,994 INFO cavslid.py line 75 110060] Totally 26 x 1 samples in val set.
+[2024-12-23 09:48:13,994 INFO train.py line 140 110060] => Building optimize, scheduler, scaler(amp) ...
+[2024-12-23 09:48:14,009 INFO train.py line 144 110060] => Building hooks ...
+[2024-12-23 09:48:14,009 INFO misc.py line 213 110060] => Loading checkpoint & weight ...
+[2024-12-23 09:48:14,009 INFO misc.py line 249 110060] No weight found at: None
+[2024-12-23 09:48:14,009 INFO train.py line 151 110060] >>>>>>>>>>>>>>>> Start Training >>>>>>>>>>>>>>>>
+[2024-12-23 09:48:25,365 INFO misc.py line 134 110060] Train result: loss: 0.7373 
+[2024-12-23 09:48:25,365 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:48:25,620 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5754 
+[2024-12-23 09:48:25,666 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.5668 
+[2024-12-23 09:48:25,698 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.5158 
+[2024-12-23 09:48:25,726 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.6788 
+[2024-12-23 09:48:25,756 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5416 
+[2024-12-23 09:48:25,786 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5214 
+[2024-12-23 09:48:25,824 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5960 
+[2024-12-23 09:48:25,860 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.5325 
+[2024-12-23 09:48:25,897 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.5081 
+[2024-12-23 09:48:25,927 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4793 
+[2024-12-23 09:48:25,966 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5431 
+[2024-12-23 09:48:26,004 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4969 
+[2024-12-23 09:48:26,039 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.5757 
+[2024-12-23 09:48:26,067 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.6498 
+[2024-12-23 09:48:26,092 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.6271 
+[2024-12-23 09:48:26,115 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.6823 
+[2024-12-23 09:48:26,139 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6498 
+[2024-12-23 09:48:26,164 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.5628 
+[2024-12-23 09:48:26,188 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4914 
+[2024-12-23 09:48:26,215 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4799 
+[2024-12-23 09:48:26,250 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.6121 
+[2024-12-23 09:48:26,278 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5987 
+[2024-12-23 09:48:26,302 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.5588 
+[2024-12-23 09:48:26,336 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4798 
+[2024-12-23 09:48:26,359 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.6107 
+[2024-12-23 09:48:26,384 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.5722 
+[2024-12-23 09:48:26,422 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.1690/0.1968/0.8506.
+[2024-12-23 09:48:26,423 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.1604/0.1950
+[2024-12-23 09:48:26,423 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:48:26,423 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:48:26,423 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:48:26,423 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8535/0.9860
+[2024-12-23 09:48:26,423 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:48:26,423 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:48:26,423 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.1690
+[2024-12-23 09:48:26,423 INFO misc.py line 163 110060] Currently Best mIoU: 0.1690
+[2024-12-23 09:48:26,423 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:49:08,373 INFO misc.py line 134 110060] Train result: loss: 0.5950 
+[2024-12-23 09:49:08,373 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:49:08,604 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5824 
+[2024-12-23 09:49:08,643 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.5113 
+[2024-12-23 09:49:08,685 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4782 
+[2024-12-23 09:49:08,713 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5857 
+[2024-12-23 09:49:08,747 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5240 
+[2024-12-23 09:49:08,781 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.4428 
+[2024-12-23 09:49:08,816 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5715 
+[2024-12-23 09:49:08,854 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4920 
+[2024-12-23 09:49:08,890 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.5202 
+[2024-12-23 09:49:08,920 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.5425 
+[2024-12-23 09:49:08,952 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5780 
+[2024-12-23 09:49:08,987 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.5384 
+[2024-12-23 09:49:09,014 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.5735 
+[2024-12-23 09:49:09,042 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.6736 
+[2024-12-23 09:49:09,068 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.6605 
+[2024-12-23 09:49:09,091 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.6256 
+[2024-12-23 09:49:09,114 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6760 
+[2024-12-23 09:49:09,140 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.5373 
+[2024-12-23 09:49:09,164 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.5261 
+[2024-12-23 09:49:09,191 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4997 
+[2024-12-23 09:49:09,229 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.6484 
+[2024-12-23 09:49:09,256 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.6191 
+[2024-12-23 09:49:09,279 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.6099 
+[2024-12-23 09:49:09,312 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.5416 
+[2024-12-23 09:49:09,335 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5981 
+[2024-12-23 09:49:09,360 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.5576 
+[2024-12-23 09:49:09,393 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.1579/0.1830/0.8496.
+[2024-12-23 09:49:09,394 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.0465/0.0478
+[2024-12-23 09:49:09,394 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0422/0.0533
+[2024-12-23 09:49:09,394 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:49:09,394 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.0023/0.0023
+[2024-12-23 09:49:09,394 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8565/0.9946
+[2024-12-23 09:49:09,394 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:49:09,394 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:49:09,394 INFO misc.py line 163 110060] Currently Best mIoU: 0.1690
+[2024-12-23 09:49:09,394 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:49:34,121 INFO misc.py line 134 110060] Train result: loss: 0.5790 
+[2024-12-23 09:49:34,121 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:49:34,369 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5624 
+[2024-12-23 09:49:34,408 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.5210 
+[2024-12-23 09:49:34,442 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4546 
+[2024-12-23 09:49:34,468 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5670 
+[2024-12-23 09:49:34,500 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4955 
+[2024-12-23 09:49:34,530 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.4645 
+[2024-12-23 09:49:34,566 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5432 
+[2024-12-23 09:49:34,604 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.5069 
+[2024-12-23 09:49:34,644 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4676 
+[2024-12-23 09:49:34,672 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4645 
+[2024-12-23 09:49:34,701 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5609 
+[2024-12-23 09:49:34,739 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4762 
+[2024-12-23 09:49:34,767 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.5068 
+[2024-12-23 09:49:34,795 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.6325 
+[2024-12-23 09:49:34,819 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.6603 
+[2024-12-23 09:49:34,841 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5895 
+[2024-12-23 09:49:34,864 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6747 
+[2024-12-23 09:49:34,888 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4854 
+[2024-12-23 09:49:34,912 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.5174 
+[2024-12-23 09:49:34,942 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4750 
+[2024-12-23 09:49:34,975 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.6094 
+[2024-12-23 09:49:35,003 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5797 
+[2024-12-23 09:49:35,027 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.5217 
+[2024-12-23 09:49:35,061 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4843 
+[2024-12-23 09:49:35,083 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5535 
+[2024-12-23 09:49:35,108 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.5131 
+[2024-12-23 09:49:35,142 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.1698/0.1961/0.8519.
+[2024-12-23 09:49:35,142 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.1162/0.1288
+[2024-12-23 09:49:35,142 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:49:35,142 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:49:35,142 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.0470/0.0548
+[2024-12-23 09:49:35,143 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8559/0.9931
+[2024-12-23 09:49:35,143 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:49:35,143 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:49:35,143 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.1698
+[2024-12-23 09:49:35,143 INFO misc.py line 163 110060] Currently Best mIoU: 0.1698
+[2024-12-23 09:49:35,143 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:50:16,240 INFO misc.py line 134 110060] Train result: loss: 0.5686 
+[2024-12-23 09:50:16,240 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:50:16,499 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5330 
+[2024-12-23 09:50:16,539 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4874 
+[2024-12-23 09:50:16,575 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4303 
+[2024-12-23 09:50:16,604 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5780 
+[2024-12-23 09:50:16,634 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5123 
+[2024-12-23 09:50:16,673 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5344 
+[2024-12-23 09:50:16,720 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5319 
+[2024-12-23 09:50:16,759 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4859 
+[2024-12-23 09:50:16,796 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4841 
+[2024-12-23 09:50:16,826 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4639 
+[2024-12-23 09:50:16,856 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5625 
+[2024-12-23 09:50:16,894 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4585 
+[2024-12-23 09:50:16,926 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4796 
+[2024-12-23 09:50:16,953 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.6244 
+[2024-12-23 09:50:16,983 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5731 
+[2024-12-23 09:50:17,008 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5799 
+[2024-12-23 09:50:17,032 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6133 
+[2024-12-23 09:50:17,057 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4723 
+[2024-12-23 09:50:17,082 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4939 
+[2024-12-23 09:50:17,111 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4550 
+[2024-12-23 09:50:17,146 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5609 
+[2024-12-23 09:50:17,197 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5445 
+[2024-12-23 09:50:17,227 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.5051 
+[2024-12-23 09:50:17,262 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4809 
+[2024-12-23 09:50:17,288 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.6307 
+[2024-12-23 09:50:17,320 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4741 
+[2024-12-23 09:50:17,353 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2135/0.2504/0.8537.
+[2024-12-23 09:50:17,353 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2239/0.3015
+[2024-12-23 09:50:17,353 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0807/0.0931
+[2024-12-23 09:50:17,353 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0081/0.0081
+[2024-12-23 09:50:17,353 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.1063/0.1295
+[2024-12-23 09:50:17,353 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8620/0.9704
+[2024-12-23 09:50:17,353 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:50:17,353 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:50:17,354 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.2135
+[2024-12-23 09:50:17,354 INFO misc.py line 163 110060] Currently Best mIoU: 0.2135
+[2024-12-23 09:50:17,354 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:50:59,030 INFO misc.py line 134 110060] Train result: loss: 0.5534 
+[2024-12-23 09:50:59,030 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:50:59,297 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5345 
+[2024-12-23 09:50:59,336 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.5175 
+[2024-12-23 09:50:59,368 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4485 
+[2024-12-23 09:50:59,396 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5622 
+[2024-12-23 09:50:59,428 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5117 
+[2024-12-23 09:50:59,462 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5401 
+[2024-12-23 09:50:59,500 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5186 
+[2024-12-23 09:50:59,547 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4930 
+[2024-12-23 09:50:59,582 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4430 
+[2024-12-23 09:50:59,613 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4376 
+[2024-12-23 09:50:59,656 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5303 
+[2024-12-23 09:50:59,696 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4434 
+[2024-12-23 09:50:59,736 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4755 
+[2024-12-23 09:50:59,769 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5661 
+[2024-12-23 09:50:59,795 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5733 
+[2024-12-23 09:50:59,821 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5698 
+[2024-12-23 09:50:59,843 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5979 
+[2024-12-23 09:50:59,869 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4601 
+[2024-12-23 09:50:59,893 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4710 
+[2024-12-23 09:50:59,920 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4452 
+[2024-12-23 09:50:59,956 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5353 
+[2024-12-23 09:50:59,983 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5261 
+[2024-12-23 09:51:00,008 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4796 
+[2024-12-23 09:51:00,059 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4715 
+[2024-12-23 09:51:00,096 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.6475 
+[2024-12-23 09:51:00,134 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4952 
+[2024-12-23 09:51:00,181 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2193/0.2773/0.8492.
+[2024-12-23 09:51:00,182 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2875/0.5025
+[2024-12-23 09:51:00,182 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0052/0.0052
+[2024-12-23 09:51:00,182 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0207/0.0240
+[2024-12-23 09:51:00,182 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.1373/0.1848
+[2024-12-23 09:51:00,182 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8650/0.9473
+[2024-12-23 09:51:00,182 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:51:00,182 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:51:00,182 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.2193
+[2024-12-23 09:51:00,182 INFO misc.py line 163 110060] Currently Best mIoU: 0.2193
+[2024-12-23 09:51:00,182 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:51:42,048 INFO misc.py line 134 110060] Train result: loss: 0.5602 
+[2024-12-23 09:51:42,048 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:51:42,293 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5346 
+[2024-12-23 09:51:42,331 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4955 
+[2024-12-23 09:51:42,364 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4256 
+[2024-12-23 09:51:42,392 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5306 
+[2024-12-23 09:51:42,422 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4873 
+[2024-12-23 09:51:42,452 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.4983 
+[2024-12-23 09:51:42,489 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5178 
+[2024-12-23 09:51:42,526 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4753 
+[2024-12-23 09:51:42,564 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4714 
+[2024-12-23 09:51:42,592 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4385 
+[2024-12-23 09:51:42,621 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5365 
+[2024-12-23 09:51:42,658 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4438 
+[2024-12-23 09:51:42,684 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4946 
+[2024-12-23 09:51:42,713 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5734 
+[2024-12-23 09:51:42,737 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5825 
+[2024-12-23 09:51:42,761 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5221 
+[2024-12-23 09:51:42,783 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6614 
+[2024-12-23 09:51:42,809 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4742 
+[2024-12-23 09:51:42,833 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4694 
+[2024-12-23 09:51:42,861 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4455 
+[2024-12-23 09:51:42,895 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5331 
+[2024-12-23 09:51:42,922 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5164 
+[2024-12-23 09:51:42,946 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4919 
+[2024-12-23 09:51:42,990 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4805 
+[2024-12-23 09:51:43,013 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5623 
+[2024-12-23 09:51:43,037 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4792 
+[2024-12-23 09:51:43,065 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2094/0.2470/0.8619.
+[2024-12-23 09:51:43,065 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.1789/0.2060
+[2024-12-23 09:51:43,065 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0030/0.0031
+[2024-12-23 09:51:43,065 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:51:43,065 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2053/0.2831
+[2024-12-23 09:51:43,065 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8690/0.9898
+[2024-12-23 09:51:43,065 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:51:43,065 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:51:43,066 INFO misc.py line 163 110060] Currently Best mIoU: 0.2193
+[2024-12-23 09:51:43,066 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:52:07,622 INFO misc.py line 134 110060] Train result: loss: 0.5545 
+[2024-12-23 09:52:07,622 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:52:07,859 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5095 
+[2024-12-23 09:52:07,898 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4713 
+[2024-12-23 09:52:07,934 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4469 
+[2024-12-23 09:52:07,962 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5536 
+[2024-12-23 09:52:07,992 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4945 
+[2024-12-23 09:52:08,022 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.4862 
+[2024-12-23 09:52:08,059 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5306 
+[2024-12-23 09:52:08,097 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4418 
+[2024-12-23 09:52:08,154 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4606 
+[2024-12-23 09:52:08,184 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4602 
+[2024-12-23 09:52:08,213 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5829 
+[2024-12-23 09:52:08,251 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4330 
+[2024-12-23 09:52:08,278 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4961 
+[2024-12-23 09:52:08,304 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5940 
+[2024-12-23 09:52:08,329 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.6087 
+[2024-12-23 09:52:08,351 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5902 
+[2024-12-23 09:52:08,374 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6257 
+[2024-12-23 09:52:08,399 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4831 
+[2024-12-23 09:52:08,423 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4781 
+[2024-12-23 09:52:08,450 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4441 
+[2024-12-23 09:52:08,497 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5392 
+[2024-12-23 09:52:08,534 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5479 
+[2024-12-23 09:52:08,558 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.5328 
+[2024-12-23 09:52:08,596 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4402 
+[2024-12-23 09:52:08,619 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5563 
+[2024-12-23 09:52:08,644 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4957 
+[2024-12-23 09:52:08,676 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2106/0.2581/0.8564.
+[2024-12-23 09:52:08,676 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.1581/0.1752
+[2024-12-23 09:52:08,676 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0279/0.0301
+[2024-12-23 09:52:08,676 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0937/0.2077
+[2024-12-23 09:52:08,676 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.1183/0.1485
+[2024-12-23 09:52:08,676 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8654/0.9869
+[2024-12-23 09:52:08,676 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:52:08,676 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:52:08,676 INFO misc.py line 163 110060] Currently Best mIoU: 0.2193
+[2024-12-23 09:52:08,676 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:52:32,975 INFO misc.py line 134 110060] Train result: loss: 0.5563 
+[2024-12-23 09:52:32,975 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:52:33,225 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5418 
+[2024-12-23 09:52:33,264 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4899 
+[2024-12-23 09:52:33,295 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4438 
+[2024-12-23 09:52:33,323 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.6301 
+[2024-12-23 09:52:33,354 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5243 
+[2024-12-23 09:52:33,383 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5533 
+[2024-12-23 09:52:33,420 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.4980 
+[2024-12-23 09:52:33,457 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4740 
+[2024-12-23 09:52:33,495 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4513 
+[2024-12-23 09:52:33,524 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4986 
+[2024-12-23 09:52:33,554 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.6256 
+[2024-12-23 09:52:33,591 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4344 
+[2024-12-23 09:52:33,619 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4817 
+[2024-12-23 09:52:33,647 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5407 
+[2024-12-23 09:52:33,673 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5885 
+[2024-12-23 09:52:33,696 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5399 
+[2024-12-23 09:52:33,719 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6355 
+[2024-12-23 09:52:33,745 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4579 
+[2024-12-23 09:52:33,768 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.5362 
+[2024-12-23 09:52:33,795 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4365 
+[2024-12-23 09:52:33,830 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5400 
+[2024-12-23 09:52:33,857 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5520 
+[2024-12-23 09:52:33,882 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.5132 
+[2024-12-23 09:52:33,916 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4821 
+[2024-12-23 09:52:33,939 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5925 
+[2024-12-23 09:52:33,964 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4911 
+[2024-12-23 09:52:34,002 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2304/0.3219/0.8480.
+[2024-12-23 09:52:34,003 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2420/0.3154
+[2024-12-23 09:52:34,003 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0218/0.0226
+[2024-12-23 09:52:34,003 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0171/0.0175
+[2024-12-23 09:52:34,003 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.1799/0.4499
+[2024-12-23 09:52:34,003 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8627/0.9592
+[2024-12-23 09:52:34,003 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0588/0.1667
+[2024-12-23 09:52:34,003 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:52:34,004 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.2304
+[2024-12-23 09:52:34,004 INFO misc.py line 163 110060] Currently Best mIoU: 0.2304
+[2024-12-23 09:52:34,004 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:53:15,772 INFO misc.py line 134 110060] Train result: loss: 0.5457 
+[2024-12-23 09:53:15,772 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:53:16,024 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.4937 
+[2024-12-23 09:53:16,069 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4748 
+[2024-12-23 09:53:16,104 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4688 
+[2024-12-23 09:53:16,133 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5181 
+[2024-12-23 09:53:16,163 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5107 
+[2024-12-23 09:53:16,197 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5664 
+[2024-12-23 09:53:16,240 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5162 
+[2024-12-23 09:53:16,277 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4713 
+[2024-12-23 09:53:16,314 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4375 
+[2024-12-23 09:53:16,350 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4384 
+[2024-12-23 09:53:16,382 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5751 
+[2024-12-23 09:53:16,450 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4215 
+[2024-12-23 09:53:16,478 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4712 
+[2024-12-23 09:53:16,505 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.4827 
+[2024-12-23 09:53:16,533 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5846 
+[2024-12-23 09:53:16,568 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5616 
+[2024-12-23 09:53:16,590 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5902 
+[2024-12-23 09:53:16,615 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4707 
+[2024-12-23 09:53:16,638 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4620 
+[2024-12-23 09:53:16,666 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4271 
+[2024-12-23 09:53:16,699 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4815 
+[2024-12-23 09:53:16,727 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5153 
+[2024-12-23 09:53:16,753 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4669 
+[2024-12-23 09:53:16,788 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4562 
+[2024-12-23 09:53:16,818 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5866 
+[2024-12-23 09:53:16,848 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4956 
+[2024-12-23 09:53:16,891 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2453/0.3347/0.8390.
+[2024-12-23 09:53:16,891 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.3104/0.6262
+[2024-12-23 09:53:16,891 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0579/0.0625
+[2024-12-23 09:53:16,891 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0697/0.1273
+[2024-12-23 09:53:16,891 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.1716/0.2735
+[2024-12-23 09:53:16,892 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8623/0.9188
+[2024-12-23 09:53:16,892 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0000/0.0000
+[2024-12-23 09:53:16,892 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:53:16,892 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.2453
+[2024-12-23 09:53:16,892 INFO misc.py line 163 110060] Currently Best mIoU: 0.2453
+[2024-12-23 09:53:16,892 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:53:58,826 INFO misc.py line 134 110060] Train result: loss: 0.5461 
+[2024-12-23 09:53:58,826 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:53:59,080 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5098 
+[2024-12-23 09:53:59,118 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4579 
+[2024-12-23 09:53:59,150 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4543 
+[2024-12-23 09:53:59,177 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5236 
+[2024-12-23 09:53:59,207 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4900 
+[2024-12-23 09:53:59,235 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5230 
+[2024-12-23 09:53:59,272 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5189 
+[2024-12-23 09:53:59,309 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4622 
+[2024-12-23 09:53:59,346 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4362 
+[2024-12-23 09:53:59,375 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4521 
+[2024-12-23 09:53:59,406 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5878 
+[2024-12-23 09:53:59,442 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4243 
+[2024-12-23 09:53:59,468 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4868 
+[2024-12-23 09:53:59,497 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5631 
+[2024-12-23 09:53:59,533 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5791 
+[2024-12-23 09:53:59,560 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5907 
+[2024-12-23 09:53:59,583 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6174 
+[2024-12-23 09:53:59,607 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4653 
+[2024-12-23 09:53:59,631 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4809 
+[2024-12-23 09:53:59,658 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4252 
+[2024-12-23 09:53:59,692 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4914 
+[2024-12-23 09:53:59,719 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5293 
+[2024-12-23 09:53:59,744 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4693 
+[2024-12-23 09:53:59,777 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4600 
+[2024-12-23 09:53:59,800 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5608 
+[2024-12-23 09:53:59,835 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4752 
+[2024-12-23 09:53:59,871 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2682/0.3433/0.8529.
+[2024-12-23 09:53:59,871 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2712/0.3687
+[2024-12-23 09:53:59,871 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.0905/0.1110
+[2024-12-23 09:53:59,871 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0510/0.0667
+[2024-12-23 09:53:59,871 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2008/0.4330
+[2024-12-23 09:53:59,871 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8708/0.9552
+[2024-12-23 09:53:59,871 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.1250/0.1250
+[2024-12-23 09:53:59,871 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:53:59,872 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.2682
+[2024-12-23 09:53:59,872 INFO misc.py line 163 110060] Currently Best mIoU: 0.2682
+[2024-12-23 09:53:59,872 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:54:40,748 INFO misc.py line 134 110060] Train result: loss: 0.5409 
+[2024-12-23 09:54:40,749 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:54:41,011 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5345 
+[2024-12-23 09:54:41,051 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4622 
+[2024-12-23 09:54:41,087 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4708 
+[2024-12-23 09:54:41,125 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.5460 
+[2024-12-23 09:54:41,156 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4902 
+[2024-12-23 09:54:41,184 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5674 
+[2024-12-23 09:54:41,221 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5266 
+[2024-12-23 09:54:41,265 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4396 
+[2024-12-23 09:54:41,300 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4343 
+[2024-12-23 09:54:41,330 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4680 
+[2024-12-23 09:54:41,359 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5732 
+[2024-12-23 09:54:41,398 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4308 
+[2024-12-23 09:54:41,425 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.5032 
+[2024-12-23 09:54:41,452 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5131 
+[2024-12-23 09:54:41,478 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5669 
+[2024-12-23 09:54:41,501 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.4955 
+[2024-12-23 09:54:41,525 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5679 
+[2024-12-23 09:54:41,551 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4588 
+[2024-12-23 09:54:41,576 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.5269 
+[2024-12-23 09:54:41,602 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4229 
+[2024-12-23 09:54:41,635 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4883 
+[2024-12-23 09:54:41,673 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5299 
+[2024-12-23 09:54:41,703 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4779 
+[2024-12-23 09:54:41,738 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4643 
+[2024-12-23 09:54:41,761 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5403 
+[2024-12-23 09:54:41,788 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4842 
+[2024-12-23 09:54:41,814 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2844/0.3974/0.8427.
+[2024-12-23 09:54:41,814 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.3152/0.5079
+[2024-12-23 09:54:41,814 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1072/0.1264
+[2024-12-23 09:54:41,814 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.1057/0.2617
+[2024-12-23 09:54:41,814 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.1678/0.4169
+[2024-12-23 09:54:41,814 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8676/0.9287
+[2024-12-23 09:54:41,814 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.1429/0.1429
+[2024-12-23 09:54:41,814 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:54:41,815 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.2844
+[2024-12-23 09:54:41,815 INFO misc.py line 163 110060] Currently Best mIoU: 0.2844
+[2024-12-23 09:54:41,815 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:55:23,467 INFO misc.py line 134 110060] Train result: loss: 0.5438 
+[2024-12-23 09:55:23,467 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:55:23,698 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5070 
+[2024-12-23 09:55:23,740 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4400 
+[2024-12-23 09:55:23,790 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4384 
+[2024-12-23 09:55:23,827 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4883 
+[2024-12-23 09:55:23,861 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4837 
+[2024-12-23 09:55:23,893 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5242 
+[2024-12-23 09:55:23,941 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5076 
+[2024-12-23 09:55:23,989 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4171 
+[2024-12-23 09:55:24,026 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4706 
+[2024-12-23 09:55:24,055 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4197 
+[2024-12-23 09:55:24,084 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5695 
+[2024-12-23 09:55:24,123 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4144 
+[2024-12-23 09:55:24,154 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.5008 
+[2024-12-23 09:55:24,181 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5093 
+[2024-12-23 09:55:24,205 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5886 
+[2024-12-23 09:55:24,229 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5382 
+[2024-12-23 09:55:24,252 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5986 
+[2024-12-23 09:55:24,279 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4735 
+[2024-12-23 09:55:24,304 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.5079 
+[2024-12-23 09:55:24,331 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4386 
+[2024-12-23 09:55:24,365 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5134 
+[2024-12-23 09:55:24,392 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5182 
+[2024-12-23 09:55:24,418 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4871 
+[2024-12-23 09:55:24,452 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4593 
+[2024-12-23 09:55:24,476 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5747 
+[2024-12-23 09:55:24,503 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4796 
+[2024-12-23 09:55:24,536 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2549/0.3899/0.8486.
+[2024-12-23 09:55:24,536 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2608/0.3724
+[2024-12-23 09:55:24,536 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1278/0.1618
+[2024-12-23 09:55:24,536 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0072/0.0075
+[2024-12-23 09:55:24,536 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2139/0.5195
+[2024-12-23 09:55:24,536 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8686/0.9449
+[2024-12-23 09:55:24,537 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0513/0.3333
+[2024-12-23 09:55:24,537 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:55:24,537 INFO misc.py line 163 110060] Currently Best mIoU: 0.2844
+[2024-12-23 09:55:24,538 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:55:49,245 INFO misc.py line 134 110060] Train result: loss: 0.5300 
+[2024-12-23 09:55:49,245 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:55:49,476 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5085 
+[2024-12-23 09:55:49,515 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4422 
+[2024-12-23 09:55:49,547 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4370 
+[2024-12-23 09:55:49,574 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4896 
+[2024-12-23 09:55:49,604 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4933 
+[2024-12-23 09:55:49,633 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5448 
+[2024-12-23 09:55:49,671 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5255 
+[2024-12-23 09:55:49,708 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4117 
+[2024-12-23 09:55:49,746 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4418 
+[2024-12-23 09:55:49,776 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4388 
+[2024-12-23 09:55:49,806 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5932 
+[2024-12-23 09:55:49,846 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4147 
+[2024-12-23 09:55:49,878 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4874 
+[2024-12-23 09:55:49,912 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5256 
+[2024-12-23 09:55:49,936 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5943 
+[2024-12-23 09:55:49,959 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.4701 
+[2024-12-23 09:55:49,983 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5655 
+[2024-12-23 09:55:50,008 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4564 
+[2024-12-23 09:55:50,032 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4439 
+[2024-12-23 09:55:50,059 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4346 
+[2024-12-23 09:55:50,093 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5116 
+[2024-12-23 09:55:50,119 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5385 
+[2024-12-23 09:55:50,143 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4845 
+[2024-12-23 09:55:50,178 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4524 
+[2024-12-23 09:55:50,200 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5358 
+[2024-12-23 09:55:50,226 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4702 
+[2024-12-23 09:55:50,258 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2908/0.3863/0.8470.
+[2024-12-23 09:55:50,258 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2644/0.3796
+[2024-12-23 09:55:50,258 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1147/0.1481
+[2024-12-23 09:55:50,258 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0395/0.0531
+[2024-12-23 09:55:50,258 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2110/0.5102
+[2024-12-23 09:55:50,258 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8655/0.9410
+[2024-12-23 09:55:50,258 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.2500/0.2857
+[2024-12-23 09:55:50,259 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:55:50,259 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.2908
+[2024-12-23 09:55:50,259 INFO misc.py line 163 110060] Currently Best mIoU: 0.2908
+[2024-12-23 09:55:50,259 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:56:32,386 INFO misc.py line 134 110060] Train result: loss: 0.5302 
+[2024-12-23 09:56:32,386 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:56:32,633 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5320 
+[2024-12-23 09:56:32,701 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4153 
+[2024-12-23 09:56:32,735 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4759 
+[2024-12-23 09:56:32,764 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4817 
+[2024-12-23 09:56:32,796 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4911 
+[2024-12-23 09:56:32,824 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.4656 
+[2024-12-23 09:56:32,865 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5198 
+[2024-12-23 09:56:32,901 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4153 
+[2024-12-23 09:56:32,939 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4819 
+[2024-12-23 09:56:32,969 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4581 
+[2024-12-23 09:56:32,999 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5624 
+[2024-12-23 09:56:33,037 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4102 
+[2024-12-23 09:56:33,065 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4888 
+[2024-12-23 09:56:33,092 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5410 
+[2024-12-23 09:56:33,116 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.6015 
+[2024-12-23 09:56:33,141 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5028 
+[2024-12-23 09:56:33,170 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6786 
+[2024-12-23 09:56:33,200 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4957 
+[2024-12-23 09:56:33,227 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4926 
+[2024-12-23 09:56:33,256 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4343 
+[2024-12-23 09:56:33,293 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4721 
+[2024-12-23 09:56:33,324 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5274 
+[2024-12-23 09:56:33,352 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4889 
+[2024-12-23 09:56:33,389 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4493 
+[2024-12-23 09:56:33,419 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5650 
+[2024-12-23 09:56:33,446 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.5040 
+[2024-12-23 09:56:33,476 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2689/0.4394/0.8422.
+[2024-12-23 09:56:33,476 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2368/0.2953
+[2024-12-23 09:56:33,476 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1818/0.3184
+[2024-12-23 09:56:33,477 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0625/0.1538
+[2024-12-23 09:56:33,477 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2219/0.5034
+[2024-12-23 09:56:33,477 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8690/0.9369
+[2024-12-23 09:56:33,477 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0417/0.4286
+[2024-12-23 09:56:33,477 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:56:33,478 INFO misc.py line 163 110060] Currently Best mIoU: 0.2908
+[2024-12-23 09:56:33,478 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:56:58,192 INFO misc.py line 134 110060] Train result: loss: 0.5313 
+[2024-12-23 09:56:58,192 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:56:58,441 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5477 
+[2024-12-23 09:56:58,481 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.3977 
+[2024-12-23 09:56:58,516 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4299 
+[2024-12-23 09:56:58,543 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4612 
+[2024-12-23 09:56:58,574 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4989 
+[2024-12-23 09:56:58,608 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.4813 
+[2024-12-23 09:56:58,647 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5238 
+[2024-12-23 09:56:58,688 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4207 
+[2024-12-23 09:56:58,728 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4779 
+[2024-12-23 09:56:58,757 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4533 
+[2024-12-23 09:56:58,791 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5878 
+[2024-12-23 09:56:58,831 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4101 
+[2024-12-23 09:56:58,860 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.5097 
+[2024-12-23 09:56:58,887 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5491 
+[2024-12-23 09:56:58,915 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.6532 
+[2024-12-23 09:56:58,938 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5545 
+[2024-12-23 09:56:58,964 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.8186 
+[2024-12-23 09:56:58,989 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4945 
+[2024-12-23 09:56:59,016 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.5635 
+[2024-12-23 09:56:59,043 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4379 
+[2024-12-23 09:56:59,077 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5108 
+[2024-12-23 09:56:59,114 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5284 
+[2024-12-23 09:56:59,150 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4661 
+[2024-12-23 09:56:59,220 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4541 
+[2024-12-23 09:56:59,263 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5422 
+[2024-12-23 09:56:59,292 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4935 
+[2024-12-23 09:56:59,327 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2561/0.4016/0.8423.
+[2024-12-23 09:56:59,327 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2044/0.2310
+[2024-12-23 09:56:59,327 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1732/0.3259
+[2024-12-23 09:56:59,327 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0565/0.1008
+[2024-12-23 09:56:59,327 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2157/0.5236
+[2024-12-23 09:56:59,327 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8703/0.9425
+[2024-12-23 09:56:59,327 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.0164/0.2857
+[2024-12-23 09:56:59,328 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:56:59,328 INFO misc.py line 163 110060] Currently Best mIoU: 0.2908
+[2024-12-23 09:56:59,328 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:57:23,871 INFO misc.py line 134 110060] Train result: loss: 0.5304 
+[2024-12-23 09:57:23,871 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:57:24,131 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5226 
+[2024-12-23 09:57:24,170 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4425 
+[2024-12-23 09:57:24,204 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4392 
+[2024-12-23 09:57:24,232 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4072 
+[2024-12-23 09:57:24,283 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4743 
+[2024-12-23 09:57:24,319 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5418 
+[2024-12-23 09:57:24,356 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5398 
+[2024-12-23 09:57:24,403 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4051 
+[2024-12-23 09:57:24,443 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4443 
+[2024-12-23 09:57:24,476 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4242 
+[2024-12-23 09:57:24,522 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5304 
+[2024-12-23 09:57:24,557 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4053 
+[2024-12-23 09:57:24,588 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4788 
+[2024-12-23 09:57:24,613 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.4862 
+[2024-12-23 09:57:24,640 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5744 
+[2024-12-23 09:57:24,678 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5124 
+[2024-12-23 09:57:24,701 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6142 
+[2024-12-23 09:57:24,728 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4804 
+[2024-12-23 09:57:24,752 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4426 
+[2024-12-23 09:57:24,781 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4236 
+[2024-12-23 09:57:24,816 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4978 
+[2024-12-23 09:57:24,844 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5340 
+[2024-12-23 09:57:24,868 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4562 
+[2024-12-23 09:57:24,907 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4332 
+[2024-12-23 09:57:24,929 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5330 
+[2024-12-23 09:57:24,955 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4861 
+[2024-12-23 09:57:24,995 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3261/0.5310/0.8511.
+[2024-12-23 09:57:24,995 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2889/0.4200
+[2024-12-23 09:57:24,995 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1260/0.1563
+[2024-12-23 09:57:24,996 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0652/0.1190
+[2024-12-23 09:57:24,996 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2188/0.5501
+[2024-12-23 09:57:24,996 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8732/0.9406
+[2024-12-23 09:57:24,996 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.3846/1.0000
+[2024-12-23 09:57:24,996 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:57:24,997 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.3261
+[2024-12-23 09:57:24,997 INFO misc.py line 163 110060] Currently Best mIoU: 0.3261
+[2024-12-23 09:57:24,997 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:58:06,499 INFO misc.py line 134 110060] Train result: loss: 0.5221 
+[2024-12-23 09:58:06,500 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:58:06,734 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5241 
+[2024-12-23 09:58:06,774 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4532 
+[2024-12-23 09:58:06,808 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4339 
+[2024-12-23 09:58:06,836 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4827 
+[2024-12-23 09:58:06,867 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5002 
+[2024-12-23 09:58:06,898 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5567 
+[2024-12-23 09:58:06,936 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5273 
+[2024-12-23 09:58:06,980 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4188 
+[2024-12-23 09:58:07,019 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4306 
+[2024-12-23 09:58:07,057 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4531 
+[2024-12-23 09:58:07,097 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5718 
+[2024-12-23 09:58:07,134 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4325 
+[2024-12-23 09:58:07,165 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4962 
+[2024-12-23 09:58:07,189 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.4467 
+[2024-12-23 09:58:07,226 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.6025 
+[2024-12-23 09:58:07,250 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5332 
+[2024-12-23 09:58:07,273 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5440 
+[2024-12-23 09:58:07,300 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.5027 
+[2024-12-23 09:58:07,325 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4944 
+[2024-12-23 09:58:07,355 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4267 
+[2024-12-23 09:58:07,390 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5138 
+[2024-12-23 09:58:07,418 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5404 
+[2024-12-23 09:58:07,442 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4725 
+[2024-12-23 09:58:07,478 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4365 
+[2024-12-23 09:58:07,511 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5993 
+[2024-12-23 09:58:07,549 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4884 
+[2024-12-23 09:58:07,581 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3491/0.5316/0.8419.
+[2024-12-23 09:58:07,581 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.3126/0.4821
+[2024-12-23 09:58:07,581 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1009/0.1184
+[2024-12-23 09:58:07,581 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.1150/0.4188
+[2024-12-23 09:58:07,581 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.1957/0.5793
+[2024-12-23 09:58:07,582 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8705/0.9243
+[2024-12-23 09:58:07,582 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.5000/0.6667
+[2024-12-23 09:58:07,582 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:58:07,582 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.3491
+[2024-12-23 09:58:07,582 INFO misc.py line 163 110060] Currently Best mIoU: 0.3491
+[2024-12-23 09:58:07,582 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:58:49,009 INFO misc.py line 134 110060] Train result: loss: 0.5292 
+[2024-12-23 09:58:49,009 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:58:49,243 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5143 
+[2024-12-23 09:58:49,285 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4052 
+[2024-12-23 09:58:49,328 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4397 
+[2024-12-23 09:58:49,356 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4390 
+[2024-12-23 09:58:49,387 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4796 
+[2024-12-23 09:58:49,418 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5008 
+[2024-12-23 09:58:49,457 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5370 
+[2024-12-23 09:58:49,495 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.3945 
+[2024-12-23 09:58:49,533 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4878 
+[2024-12-23 09:58:49,565 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4583 
+[2024-12-23 09:58:49,594 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5669 
+[2024-12-23 09:58:49,630 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4116 
+[2024-12-23 09:58:49,663 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4591 
+[2024-12-23 09:58:49,690 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5307 
+[2024-12-23 09:58:49,717 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5865 
+[2024-12-23 09:58:49,743 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5233 
+[2024-12-23 09:58:49,766 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6096 
+[2024-12-23 09:58:49,792 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4500 
+[2024-12-23 09:58:49,817 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4733 
+[2024-12-23 09:58:49,847 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4331 
+[2024-12-23 09:58:49,904 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5247 
+[2024-12-23 09:58:49,937 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5525 
+[2024-12-23 09:58:49,963 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4214 
+[2024-12-23 09:58:49,998 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4769 
+[2024-12-23 09:58:50,024 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5235 
+[2024-12-23 09:58:50,050 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4747 
+[2024-12-23 09:58:50,082 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.2777/0.4027/0.8561.
+[2024-12-23 09:58:50,082 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.1594/0.1716
+[2024-12-23 09:58:50,082 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1417/0.1926
+[2024-12-23 09:58:50,083 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0508/0.0698
+[2024-12-23 09:58:50,083 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2158/0.5104
+[2024-12-23 09:58:50,083 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8764/0.9716
+[2024-12-23 09:58:50,083 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.2222/0.5000
+[2024-12-23 09:58:50,083 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:58:50,084 INFO misc.py line 163 110060] Currently Best mIoU: 0.3491
+[2024-12-23 09:58:50,084 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:59:14,448 INFO misc.py line 134 110060] Train result: loss: 0.5247 
+[2024-12-23 09:59:14,448 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:59:14,682 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5044 
+[2024-12-23 09:59:14,723 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4403 
+[2024-12-23 09:59:14,756 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4186 
+[2024-12-23 09:59:14,783 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4517 
+[2024-12-23 09:59:14,817 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5071 
+[2024-12-23 09:59:14,849 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5858 
+[2024-12-23 09:59:14,887 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5305 
+[2024-12-23 09:59:14,927 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4256 
+[2024-12-23 09:59:14,964 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4359 
+[2024-12-23 09:59:15,008 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4306 
+[2024-12-23 09:59:15,039 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5834 
+[2024-12-23 09:59:15,078 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4090 
+[2024-12-23 09:59:15,112 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4513 
+[2024-12-23 09:59:15,141 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.4874 
+[2024-12-23 09:59:15,168 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5544 
+[2024-12-23 09:59:15,192 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5283 
+[2024-12-23 09:59:15,219 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6017 
+[2024-12-23 09:59:15,246 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4430 
+[2024-12-23 09:59:15,273 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4698 
+[2024-12-23 09:59:15,300 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4158 
+[2024-12-23 09:59:15,335 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4635 
+[2024-12-23 09:59:15,366 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5387 
+[2024-12-23 09:59:15,415 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4546 
+[2024-12-23 09:59:15,450 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4335 
+[2024-12-23 09:59:15,477 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5359 
+[2024-12-23 09:59:15,503 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4457 
+[2024-12-23 09:59:15,534 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3157/0.4346/0.8536.
+[2024-12-23 09:59:15,534 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.3224/0.4973
+[2024-12-23 09:59:15,534 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1300/0.1608
+[2024-12-23 09:59:15,534 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.1124/0.2542
+[2024-12-23 09:59:15,534 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2057/0.4231
+[2024-12-23 09:59:15,534 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8739/0.9387
+[2024-12-23 09:59:15,534 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.2500/0.3333
+[2024-12-23 09:59:15,534 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:59:15,535 INFO misc.py line 163 110060] Currently Best mIoU: 0.3491
+[2024-12-23 09:59:15,535 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 09:59:40,339 INFO misc.py line 134 110060] Train result: loss: 0.5225 
+[2024-12-23 09:59:40,340 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 09:59:40,570 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5266 
+[2024-12-23 09:59:40,610 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4120 
+[2024-12-23 09:59:40,643 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4198 
+[2024-12-23 09:59:40,671 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4391 
+[2024-12-23 09:59:40,705 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4791 
+[2024-12-23 09:59:40,738 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.4869 
+[2024-12-23 09:59:40,776 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5265 
+[2024-12-23 09:59:40,819 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4058 
+[2024-12-23 09:59:40,861 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4834 
+[2024-12-23 09:59:40,907 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4192 
+[2024-12-23 09:59:40,938 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5761 
+[2024-12-23 09:59:40,977 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.3976 
+[2024-12-23 09:59:41,007 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4552 
+[2024-12-23 09:59:41,036 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5406 
+[2024-12-23 09:59:41,063 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5467 
+[2024-12-23 09:59:41,089 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5059 
+[2024-12-23 09:59:41,112 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5737 
+[2024-12-23 09:59:41,141 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4624 
+[2024-12-23 09:59:41,166 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4309 
+[2024-12-23 09:59:41,194 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4166 
+[2024-12-23 09:59:41,250 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.5058 
+[2024-12-23 09:59:41,296 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5160 
+[2024-12-23 09:59:41,323 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4585 
+[2024-12-23 09:59:41,357 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4632 
+[2024-12-23 09:59:41,382 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5047 
+[2024-12-23 09:59:41,408 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4680 
+[2024-12-23 09:59:41,437 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3260/0.4994/0.8526.
+[2024-12-23 09:59:41,437 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2219/0.2788
+[2024-12-23 09:59:41,437 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1800/0.2909
+[2024-12-23 09:59:41,437 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0833/0.1652
+[2024-12-23 09:59:41,437 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2381/0.4767
+[2024-12-23 09:59:41,437 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8757/0.9515
+[2024-12-23 09:59:41,437 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.3571/0.8333
+[2024-12-23 09:59:41,437 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 09:59:41,438 INFO misc.py line 163 110060] Currently Best mIoU: 0.3491
+[2024-12-23 09:59:41,438 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 10:00:06,293 INFO misc.py line 134 110060] Train result: loss: 0.5207 
+[2024-12-23 10:00:06,293 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 10:00:06,532 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5060 
+[2024-12-23 10:00:06,573 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4016 
+[2024-12-23 10:00:06,606 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4147 
+[2024-12-23 10:00:06,636 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4225 
+[2024-12-23 10:00:06,667 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5240 
+[2024-12-23 10:00:06,707 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5287 
+[2024-12-23 10:00:06,743 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5226 
+[2024-12-23 10:00:06,780 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.3907 
+[2024-12-23 10:00:06,817 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4553 
+[2024-12-23 10:00:06,848 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4218 
+[2024-12-23 10:00:06,878 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5583 
+[2024-12-23 10:00:06,918 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4152 
+[2024-12-23 10:00:06,949 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4841 
+[2024-12-23 10:00:06,977 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.4624 
+[2024-12-23 10:00:07,003 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5618 
+[2024-12-23 10:00:07,027 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5170 
+[2024-12-23 10:00:07,061 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5390 
+[2024-12-23 10:00:07,091 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4553 
+[2024-12-23 10:00:07,115 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4988 
+[2024-12-23 10:00:07,143 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4370 
+[2024-12-23 10:00:07,206 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4964 
+[2024-12-23 10:00:07,253 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5236 
+[2024-12-23 10:00:07,280 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4634 
+[2024-12-23 10:00:07,329 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4330 
+[2024-12-23 10:00:07,351 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5048 
+[2024-12-23 10:00:07,379 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4654 
+[2024-12-23 10:00:07,412 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3496/0.4864/0.8511.
+[2024-12-23 10:00:07,413 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.3181/0.5000
+[2024-12-23 10:00:07,413 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1694/0.2238
+[2024-12-23 10:00:07,413 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.1024/0.2097
+[2024-12-23 10:00:07,413 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2184/0.4989
+[2024-12-23 10:00:07,413 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8725/0.9303
+[2024-12-23 10:00:07,413 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.4167/0.5556
+[2024-12-23 10:00:07,413 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 10:00:07,413 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.3496
+[2024-12-23 10:00:07,414 INFO misc.py line 163 110060] Currently Best mIoU: 0.3496
+[2024-12-23 10:00:07,414 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 10:00:48,966 INFO misc.py line 134 110060] Train result: loss: 0.5105 
+[2024-12-23 10:00:48,966 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 10:00:49,216 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5086 
+[2024-12-23 10:00:49,258 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4113 
+[2024-12-23 10:00:49,291 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4210 
+[2024-12-23 10:00:49,324 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4129 
+[2024-12-23 10:00:49,356 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4830 
+[2024-12-23 10:00:49,393 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5194 
+[2024-12-23 10:00:49,437 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5115 
+[2024-12-23 10:00:49,473 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4059 
+[2024-12-23 10:00:49,510 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4586 
+[2024-12-23 10:00:49,540 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4224 
+[2024-12-23 10:00:49,573 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5408 
+[2024-12-23 10:00:49,614 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4165 
+[2024-12-23 10:00:49,653 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4657 
+[2024-12-23 10:00:49,691 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.4864 
+[2024-12-23 10:00:49,717 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5646 
+[2024-12-23 10:00:49,740 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.4664 
+[2024-12-23 10:00:49,763 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5312 
+[2024-12-23 10:00:49,791 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4507 
+[2024-12-23 10:00:49,816 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4499 
+[2024-12-23 10:00:49,864 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4190 
+[2024-12-23 10:00:49,918 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4778 
+[2024-12-23 10:00:49,946 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.4960 
+[2024-12-23 10:00:49,976 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4618 
+[2024-12-23 10:00:50,014 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4448 
+[2024-12-23 10:00:50,037 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5168 
+[2024-12-23 10:00:50,063 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4301 
+[2024-12-23 10:00:50,095 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3479/0.5416/0.8519.
+[2024-12-23 10:00:50,095 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2890/0.4148
+[2024-12-23 10:00:50,095 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1956/0.3000
+[2024-12-23 10:00:50,095 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.1151/0.2893
+[2024-12-23 10:00:50,095 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2274/0.4771
+[2024-12-23 10:00:50,095 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8758/0.9353
+[2024-12-23 10:00:50,095 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.3846/0.8333
+[2024-12-23 10:00:50,095 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 10:00:50,096 INFO misc.py line 163 110060] Currently Best mIoU: 0.3496
+[2024-12-23 10:00:50,096 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 10:01:14,653 INFO misc.py line 134 110060] Train result: loss: 0.5142 
+[2024-12-23 10:01:14,654 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 10:01:14,886 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5145 
+[2024-12-23 10:01:14,925 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4088 
+[2024-12-23 10:01:14,959 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4196 
+[2024-12-23 10:01:14,987 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.3909 
+[2024-12-23 10:01:15,026 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4865 
+[2024-12-23 10:01:15,055 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5351 
+[2024-12-23 10:01:15,093 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5005 
+[2024-12-23 10:01:15,130 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4018 
+[2024-12-23 10:01:15,169 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4691 
+[2024-12-23 10:01:15,203 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4092 
+[2024-12-23 10:01:15,232 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5729 
+[2024-12-23 10:01:15,273 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4029 
+[2024-12-23 10:01:15,301 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4487 
+[2024-12-23 10:01:15,328 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.5240 
+[2024-12-23 10:01:15,353 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5666 
+[2024-12-23 10:01:15,378 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.4646 
+[2024-12-23 10:01:15,403 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5519 
+[2024-12-23 10:01:15,429 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4514 
+[2024-12-23 10:01:15,455 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4482 
+[2024-12-23 10:01:15,486 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4165 
+[2024-12-23 10:01:15,553 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4954 
+[2024-12-23 10:01:15,586 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5189 
+[2024-12-23 10:01:15,611 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4396 
+[2024-12-23 10:01:15,654 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4411 
+[2024-12-23 10:01:15,680 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5142 
+[2024-12-23 10:01:15,706 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4371 
+[2024-12-23 10:01:15,739 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3308/0.5284/0.8520.
+[2024-12-23 10:01:15,739 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2924/0.4040
+[2024-12-23 10:01:15,739 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1834/0.2777
+[2024-12-23 10:01:15,739 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.0842/0.2143
+[2024-12-23 10:01:15,739 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2363/0.5011
+[2024-12-23 10:01:15,739 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8762/0.9398
+[2024-12-23 10:01:15,739 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.3125/0.8333
+[2024-12-23 10:01:15,739 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 10:01:15,740 INFO misc.py line 163 110060] Currently Best mIoU: 0.3496
+[2024-12-23 10:01:15,740 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 10:01:40,310 INFO misc.py line 134 110060] Train result: loss: 0.5073 
+[2024-12-23 10:01:40,311 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 10:01:40,588 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5115 
+[2024-12-23 10:01:40,639 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.4149 
+[2024-12-23 10:01:40,673 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4115 
+[2024-12-23 10:01:40,699 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.3885 
+[2024-12-23 10:01:40,750 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.4772 
+[2024-12-23 10:01:40,783 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5103 
+[2024-12-23 10:01:40,825 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5033 
+[2024-12-23 10:01:40,866 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.4085 
+[2024-12-23 10:01:40,905 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4566 
+[2024-12-23 10:01:40,935 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4244 
+[2024-12-23 10:01:40,967 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5890 
+[2024-12-23 10:01:41,004 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.4182 
+[2024-12-23 10:01:41,034 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4572 
+[2024-12-23 10:01:41,058 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.4578 
+[2024-12-23 10:01:41,088 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5421 
+[2024-12-23 10:01:41,111 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5215 
+[2024-12-23 10:01:41,137 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.6042 
+[2024-12-23 10:01:41,163 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4486 
+[2024-12-23 10:01:41,211 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.5019 
+[2024-12-23 10:01:41,246 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4084 
+[2024-12-23 10:01:41,281 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4880 
+[2024-12-23 10:01:41,310 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5141 
+[2024-12-23 10:01:41,336 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4556 
+[2024-12-23 10:01:41,373 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4257 
+[2024-12-23 10:01:41,396 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5253 
+[2024-12-23 10:01:41,423 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4514 
+[2024-12-23 10:01:41,457 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3576/0.5346/0.8523.
+[2024-12-23 10:01:41,458 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2887/0.4028
+[2024-12-23 10:01:41,458 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1978/0.2924
+[2024-12-23 10:01:41,458 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.1007/0.2419
+[2024-12-23 10:01:41,458 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2290/0.4989
+[2024-12-23 10:01:41,458 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8748/0.9384
+[2024-12-23 10:01:41,458 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.4545/0.8333
+[2024-12-23 10:01:41,458 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 10:01:41,459 INFO misc.py line 158 110060] Best validation mIoU updated to: 0.3576
+[2024-12-23 10:01:41,459 INFO misc.py line 163 110060] Currently Best mIoU: 0.3576
+[2024-12-23 10:01:41,459 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 10:02:23,029 INFO misc.py line 134 110060] Train result: loss: 0.5185 
+[2024-12-23 10:02:23,029 INFO evaluator.py line 28 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 10:02:23,263 INFO evaluator.py line 75 110060] Test: [1/26] Loss 0.5207 
+[2024-12-23 10:02:23,306 INFO evaluator.py line 75 110060] Test: [2/26] Loss 0.3791 
+[2024-12-23 10:02:23,342 INFO evaluator.py line 75 110060] Test: [3/26] Loss 0.4085 
+[2024-12-23 10:02:23,375 INFO evaluator.py line 75 110060] Test: [4/26] Loss 0.4365 
+[2024-12-23 10:02:23,405 INFO evaluator.py line 75 110060] Test: [5/26] Loss 0.5105 
+[2024-12-23 10:02:23,448 INFO evaluator.py line 75 110060] Test: [6/26] Loss 0.5201 
+[2024-12-23 10:02:23,488 INFO evaluator.py line 75 110060] Test: [7/26] Loss 0.5101 
+[2024-12-23 10:02:23,528 INFO evaluator.py line 75 110060] Test: [8/26] Loss 0.3927 
+[2024-12-23 10:02:23,565 INFO evaluator.py line 75 110060] Test: [9/26] Loss 0.4601 
+[2024-12-23 10:02:23,603 INFO evaluator.py line 75 110060] Test: [10/26] Loss 0.4258 
+[2024-12-23 10:02:23,634 INFO evaluator.py line 75 110060] Test: [11/26] Loss 0.5759 
+[2024-12-23 10:02:23,674 INFO evaluator.py line 75 110060] Test: [12/26] Loss 0.3932 
+[2024-12-23 10:02:23,702 INFO evaluator.py line 75 110060] Test: [13/26] Loss 0.4836 
+[2024-12-23 10:02:23,737 INFO evaluator.py line 75 110060] Test: [14/26] Loss 0.4631 
+[2024-12-23 10:02:23,764 INFO evaluator.py line 75 110060] Test: [15/26] Loss 0.5454 
+[2024-12-23 10:02:23,788 INFO evaluator.py line 75 110060] Test: [16/26] Loss 0.5447 
+[2024-12-23 10:02:23,814 INFO evaluator.py line 75 110060] Test: [17/26] Loss 0.5386 
+[2024-12-23 10:02:23,848 INFO evaluator.py line 75 110060] Test: [18/26] Loss 0.4697 
+[2024-12-23 10:02:23,874 INFO evaluator.py line 75 110060] Test: [19/26] Loss 0.4753 
+[2024-12-23 10:02:23,903 INFO evaluator.py line 75 110060] Test: [20/26] Loss 0.4198 
+[2024-12-23 10:02:23,950 INFO evaluator.py line 75 110060] Test: [21/26] Loss 0.4939 
+[2024-12-23 10:02:23,983 INFO evaluator.py line 75 110060] Test: [22/26] Loss 0.5154 
+[2024-12-23 10:02:24,013 INFO evaluator.py line 75 110060] Test: [23/26] Loss 0.4752 
+[2024-12-23 10:02:24,049 INFO evaluator.py line 75 110060] Test: [24/26] Loss 0.4581 
+[2024-12-23 10:02:24,090 INFO evaluator.py line 75 110060] Test: [25/26] Loss 0.5431 
+[2024-12-23 10:02:24,116 INFO evaluator.py line 75 110060] Test: [26/26] Loss 0.4610 
+[2024-12-23 10:02:24,148 INFO evaluator.py line 90 110060] Val result: mIoU/mAcc/allAcc 0.3310/0.5321/0.8492.
+[2024-12-23 10:02:24,148 INFO evaluator.py line 96 110060] Class_0-Grass Result: iou/accuracy 0.2815/0.4014
+[2024-12-23 10:02:24,148 INFO evaluator.py line 96 110060] Class_1-Low Vegetation | Shrubs Result: iou/accuracy 0.1884/0.2737
+[2024-12-23 10:02:24,148 INFO evaluator.py line 96 110060] Class_2-Rough Trail | Bumpy Road | Gravel Result: iou/accuracy 0.1276/0.2868
+[2024-12-23 10:02:24,148 INFO evaluator.py line 96 110060] Class_3-Smooth Trail | Grass Trail Result: iou/accuracy 0.2038/0.4607
+[2024-12-23 10:02:24,148 INFO evaluator.py line 96 110060] Class_4-High Vegetation | Foliage Result: iou/accuracy 0.8724/0.9365
+[2024-12-23 10:02:24,148 INFO evaluator.py line 96 110060] Class_5-Obstacle |Fallen Tree Trunks, Rocks / boulders, etc.on the trail Result: iou/accuracy 0.3125/0.8333
+[2024-12-23 10:02:24,148 INFO evaluator.py line 110 110060] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2024-12-23 10:02:24,149 INFO misc.py line 163 110060] Currently Best mIoU: 0.3576
+[2024-12-23 10:02:24,149 INFO misc.py line 172 110060] Saving checkpoint to: exp/default/model/model_last.pth
+[2024-12-23 10:02:41,034 INFO evaluator.py line 115 110060] Best mIoU: 0.3576
+[2024-12-23 10:02:41,035 INFO misc.py line 258 110060] >>>>>>>>>>>>>>>> Start Precise Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 10:02:41,037 INFO test.py line 43 110060] => Loading config ...
+[2024-12-23 10:02:41,037 INFO test.py line 55 110060] => Building test dataset & dataloader ...
+[2024-12-23 10:02:41,037 INFO cavslid.py line 75 110060] Totally 26 x 1 samples in val set.
+[2024-12-23 10:02:41,038 INFO misc.py line 269 110060] => Testing on model_best ...
+[2024-12-23 10:02:41,294 INFO test.py line 123 110060] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-23 10:02:41,778 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 0/32
+[2024-12-23 10:02:41,858 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 1/32
+[2024-12-23 10:02:41,909 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 2/32
+[2024-12-23 10:02:41,967 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 3/32
+[2024-12-23 10:02:42,021 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 4/32
+[2024-12-23 10:02:42,096 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 5/32
+[2024-12-23 10:02:42,148 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 6/32
+[2024-12-23 10:02:42,196 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 7/32
+[2024-12-23 10:02:42,249 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 8/32
+[2024-12-23 10:02:42,294 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 9/32
+[2024-12-23 10:02:42,340 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 10/32
+[2024-12-23 10:02:42,391 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 11/32
+[2024-12-23 10:02:42,443 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 12/32
+[2024-12-23 10:02:42,498 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 13/32
+[2024-12-23 10:02:42,554 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 14/32
+[2024-12-23 10:02:42,653 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 15/32
+[2024-12-23 10:02:42,712 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 16/32
+[2024-12-23 10:02:42,767 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 17/32
+[2024-12-23 10:02:42,819 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 18/32
+[2024-12-23 10:02:42,862 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 19/32
+[2024-12-23 10:02:42,911 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 20/32
+[2024-12-23 10:02:42,958 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 21/32
+[2024-12-23 10:02:43,006 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 22/32
+[2024-12-23 10:02:43,062 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 23/32
+[2024-12-23 10:02:43,121 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 24/32
+[2024-12-23 10:02:43,187 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 25/32
+[2024-12-23 10:02:43,255 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 26/32
+[2024-12-23 10:02:43,319 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 27/32
+[2024-12-23 10:02:43,372 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 28/32
+[2024-12-23 10:02:43,417 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 29/32
+[2024-12-23 10:02:43,453 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 30/32
+[2024-12-23 10:02:43,491 INFO test.py line 208 110060] Test: 1/26-1574174681, Batch: 31/32
+[2025-02-23 15:42:52,825 INFO train.py line 128 28067] => Loading config ...
+[2025-02-23 15:42:52,825 INFO train.py line 132 28067] => Building model ...
+[2025-02-23 15:43:06,680 INFO train.py line 128 28155] => Loading config ...
+[2025-02-23 15:43:06,680 INFO train.py line 132 28155] => Building model ...
+[2025-02-23 15:43:06,852 INFO train.py line 226 28155] Num params: 46162662
+[2025-02-23 15:43:06,973 INFO train.py line 134 28155] => Building writer ...
+[2025-02-23 15:43:06,974 INFO train.py line 236 28155] Tensorboard writer logging dir: exp/default
+[2025-02-23 15:43:06,974 INFO train.py line 136 28155] => Building train dataset & dataloader ...
+[2025-02-23 15:43:06,975 INFO cavslid.py line 75 28155] Totally 102 x 1 samples in train set.
+[2025-02-23 15:43:06,975 INFO train.py line 138 28155] => Building val dataset & dataloader ...
+[2025-02-23 15:43:06,975 INFO cavslid.py line 75 28155] Totally 26 x 1 samples in val set.
+[2025-02-23 15:43:06,975 INFO train.py line 140 28155] => Building optimize, scheduler, scaler(amp) ...
+[2025-02-23 15:43:06,978 INFO train.py line 144 28155] => Building hooks ...
+[2025-02-23 15:43:06,978 INFO misc.py line 213 28155] => Loading checkpoint & weight ...
+[2025-02-23 15:43:06,978 INFO misc.py line 249 28155] No weight found at: None
+[2025-02-23 15:43:06,978 INFO train.py line 151 28155] >>>>>>>>>>>>>>>> Start Training >>>>>>>>>>>>>>>>

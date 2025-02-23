@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: lidarsemseg
+Version: 0.1.0
+Summary: LiDAR Semantic Segmentation Package
+Author: Your Name
+Author-email: kofienninachepong@gmall.com
+Requires-Python: >=3.6
+Requires-Dist: open3d
+Requires-Dist: numpy
+Requires-Dist: torch

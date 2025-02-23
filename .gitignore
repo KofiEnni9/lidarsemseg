@@ -11,13 +11,8 @@ infer.py
 **/pytest_cache/
 
 # Environment directories
-3d_env/
-lidarsemseg/open3d-env/
-
-# Build and distribution files
-libs/pointops/build/
-libs/pointops/dist/
-libs/pointops/pointops.egg-info/
+3dseg_env/
+exp/
 
 # Data directory
 data/
